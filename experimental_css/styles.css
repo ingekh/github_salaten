@@ -1,0 +1,10 @@
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: #e0d5e8;
+    color: #4b0082;
+}
