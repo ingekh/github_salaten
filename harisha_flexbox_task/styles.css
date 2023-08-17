@@ -5,6 +5,8 @@ body{
 .flexarrange{
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-flow: column;
 }
 
 .hero{
@@ -19,7 +21,29 @@ body{
     text-align: center;
     text-shadow: 1px 1px 1px #9DDC9D;
     height: 64px;
-    width: 800px;
+    width: 650px;
+    border-radius: 6px;
+    border: inset #9DDC9D 3px;
+}
+
+.flexboxes{
+    display: flex;
+    justify-content: center;
+}
+
+.animalbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    display: flex;
+    height: 200px;
+    width: 200px;
+    background: #9DDC9D;
+    box-shadow: -4px -4px 6px 0px rgba(0, 0, 0, 0.4);
+    background: radial-gradient(ellipse farthest-corner at bottom right, #9DDC9D 0%, #648C64 100%);
+    text-align: center;
+    text-shadow: 1px 1px 1px #9DDC9D;
     border-radius: 6px;
     border: inset #9DDC9D 3px;
 }
