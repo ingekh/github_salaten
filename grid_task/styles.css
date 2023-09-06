@@ -1,0 +1,17 @@
+
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.gridboy{
+    display: grid;
+    
+}
+
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 8px;
+    margin: 4px 4px
+}
