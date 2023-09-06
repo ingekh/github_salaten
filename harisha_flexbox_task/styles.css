@@ -32,8 +32,6 @@ body{
 }
 
 .animalbox{
-    display: flex;
-    justify-content: top;
     align-items: center;
     flex-flow: column;
     margin: 10px;
