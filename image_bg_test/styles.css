@@ -1,3 +1,7 @@
+html{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
 body, html {
     height: 100%;
     margin: 0;
@@ -16,3 +20,40 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .container {  display: grid;
+    grid-template-columns: 0.6fr 1.8fr 0.6fr; 
+    grid-template-rows: 1.9fr 0.5fr 0.2fr 1.5fr; 
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . ."
+      ". Title ."
+      ". Navbar ."
+      ". . .";
+  }
+  
+  .Title { 
+    justify-self: center; 
+    align-self: end; 
+    color:white;
+    background-color: red;
+    text-shadow: 0px 5px 8px hsla(0, 0%, 0%, 0.75);
+    grid-area: Title;
+  }
+  
+  .Navbar { 
+    display: flex;
+    justify-self: center; 
+    align-self: start;
+    background-color: blue;
+    grid-area: Navbar;
+  }
+
+  #navbartext{
+    color: white;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
