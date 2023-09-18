@@ -8,52 +8,52 @@ body, html {
     padding: 0;
   }
   
-  .bg {
-    /* The image used */
-    background-image: url("Steinkross.jpg");
-  
-    /* Full height */
-    height: 100%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+.bg {
+  /* The image used */
+  background-image: url("Steinkross.jpg");
 
-  .container {  display: grid;
-    grid-template-columns: 0.6fr 1.8fr 0.6fr; 
-    grid-template-rows: 1.9fr 0.5fr 0.2fr 1.5fr; 
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      ". . ."
-      ". Title ."
-      ". Navbar ."
-      ". . .";
-  }
-  
-  .Title { 
-    justify-self: center; 
-    align-self: end; 
-    color:white;
-    background-color: red;
-    text-shadow: 0px 5px 8px hsla(0, 0%, 0%, 0.75);
-    grid-area: Title;
-  }
-  
-  .Navbar { 
-    display: flex;
-    justify-self: center; 
-    align-self: start;
-    background-color: blue;
-    grid-area: Navbar;
-  }
+  /* Full height */
+  height: 100%;
 
-  #navbartext{
-    color: white;
-    text-align: center;
-    margin-left: 5px;
-    margin-right: 5px;
-  }
-  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.title {
+  display:flex;
+  color: white;
+  font-size: larger;
+  text-shadow: 0px 1.8px 1px black;
+  height: 55px
+}
+
+.navbar {
+  color: white;
+  text-shadow: 0px 1.5px 1px black;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  height: 55px;
+}
+
+#navinfo {
+  margin-right: 8px;
+}
+
+#navhvor {
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+#navmoster {
+  margin-left: 4px;
+}
