@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Roboto:wght@400;700&display=swap');
+
+html {
+    font-family: 'Roboto', sans-serif; 
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 0 0 5px 0;
+    padding: 0 0 0 20px;
+    background-image: url('assets/images/icon-list.svg');
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    vertical-align: middle;
+    line-height: 1.5;
+}
+  
