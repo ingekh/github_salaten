@@ -2,7 +2,7 @@
 
 html {
     font-family: 'Roboto', sans-serif;
-    background-color: red;
+    background-color: hsl(234, 29%, 20%);
 }
 
 .container {
@@ -16,11 +16,11 @@ html {
     min-height: 500px;
     gap: 0px;
     margin: 50px auto;
-    padding: 35px 30px 35px 30px;
+    padding: 20px 15px 20px 15px;
     overflow: hidden;
     justify-content: center;
-    background-color: blue;
-    border-radius: 30px;
+    background-color: white;
+    border-radius: 25px;
 }
 
 .textside {
