@@ -1,0 +1,52 @@
+
+
+@font-face {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+body, html {
+  font-family: 'MyFont', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-image: url(daressalaam.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.title {
+  display: flex;
+  color: rgb(255, 255, 255);
+  font-size: large;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  height: 100px;
+  white-space: nowrap;
+}
+
+.travelbutton {
+  color: rgb(0, 0, 0);
+  display: flex;
+  padding-top: 40px;
+  white-space: nowrap;
+}
+
+.travelbutton button{
+  padding: 12px 25px 12px 25px;
+  border-radius: 10px;
+  border: none;
+  font-size: 25px;
+}
