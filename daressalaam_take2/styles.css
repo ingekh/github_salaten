@@ -6,9 +6,9 @@
 }
 
 body {
-  background-image: url(daressalaam.jpg);
   margin: 0;
   padding: 0;
+  background-image: url(daressalaam.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -30,6 +30,7 @@ body {
 }
 
 .heroflex {
+  font-family: 'MyFont', sans-serif;
   grid-area: heroflex;
   display: flex;
   justify-content: center;
