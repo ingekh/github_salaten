@@ -7,9 +7,12 @@
 
 body {
   background-image: url(daressalaam.jpg);
+  margin: 0;
+  padding: 0;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  overflow: hidden;
 }
 
 .grid {  display: grid;
@@ -23,6 +26,7 @@ body {
     ". . ."
     ". heroflex ."
     ". . .";
+    background: hsla(273, 100%, 50%, 0.3);
 }
 
 .heroflex {
