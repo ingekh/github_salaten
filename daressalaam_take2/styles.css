@@ -27,11 +27,27 @@ body {
   grid-auto-flow: row;
   height: 100vh;
   grid-template-areas: 
-    ". . ."
+    ". . flagsseg"
     ". heroseg ."
     ". buttonseg ."
     ". . ."; 
     background: hsla(273, 100%, 50%, 0.3);
+}
+
+.flagsseg {
+  grid-area: flagsseg;
+  display: flex;
+  padding: 20px;
+  height: 32px;
+  justify-content: center;
+}
+
+.flag {
+  display: flex;
+  height: 32px;
+  padding: 0px;
+  margin: 8px;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.5);
 }
 
 .heroseg {
