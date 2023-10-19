@@ -39,7 +39,7 @@ body {
   display: flex;
   padding: 20px;
   height: 32px;
-  justify-content: center;
+  justify-content: right;
 }
 
 .flag {
