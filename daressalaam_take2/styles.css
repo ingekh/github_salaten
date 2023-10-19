@@ -6,13 +6,17 @@
 }
 
 body {
+  font-family: 'MyFont', sans-serif;
+  text-align: center;
   margin: 0;
   padding: 0;
   background-image: url(daressalaam.jpg);
-  background-size: cover;
+  height: 100%;
+  background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-size: cover;
   overflow: hidden;
+  position: relative;
 }
 
 .grid {
